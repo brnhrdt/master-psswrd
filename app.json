@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "mstrpsswrd",
-    "slug": "mstrpsswrd",
+    "name": "masterpsswrd",
+    "slug": "masterpsswrd",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon-new.jpeg",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -15,7 +15,9 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "de.hardtsolutions.masterpsswrd",
+      "buildNumber": "2"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +27,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1d258002-6147-4614-866e-1439a7d963aa"
+      }
+    },
+    "owner": "dbrnhrdt"
   }
 }
