@@ -6,7 +6,9 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "buildStore": "eas build --platform ios",
+    "submitStore": "eas submit --platform ios"
   },
   "dependencies": {
     "expo": "~48.0.10",
