@@ -121,7 +121,7 @@ export default function App() {
         {copyNotification && (
           <Animated.View entering={FadeIn} exiting={FadeOut}>
             <Text style={styles.clipboardNotification}>
-              Copied to clipboard
+              Copied to clipboard.
             </Text>
           </Animated.View>
         )}
